@@ -1,20 +1,20 @@
-# ERAL Promo Library Go
+# Promo Library Go
 
-ERAL Promo Library Go is a promo library for ERAL. It is written in Golang and uses MySQL as the database.
+Promo Library Go is a promo library for ERAL. It is written in Golang and uses MySQL as the database.
 
 ## Getting Started
 
-To get started with ERAL Promo Library Go, you need to have the following:
+To get started with Promo Library Go, you need to have the following:
 
 - [Go 1.16 or later](https://go.dev/dl/)
 - [MySQL 5.6 or later](https://dev.mysql.com/downloads/mysql/)
 
 ### Installing
 
-To install ERAL Promo Library Go, you can use the following command:
+To install Promo Library Go, you can use the following command:
 
 ```bash
-go  get  github.com/fritz-immanuel/eral-promo-library-go
+go  get  github.com/bowwsudrajat/promo-library-go
 ```
 
 This will download the latest version of ERAL Promo Library Go and install it in your `$GOPATH/bin` directory.
