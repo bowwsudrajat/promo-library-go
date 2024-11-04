@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
 )
 
 type PromoDocumentBulk struct {

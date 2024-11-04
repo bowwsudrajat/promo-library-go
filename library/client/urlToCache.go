@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
 	validator "gopkg.in/go-playground/validator.v9"
 )
 

@@ -1,16 +1,16 @@
 package admin
 
 import (
-	http_brand "github.com/fritz-immanuel/eral-promo-library-go/src/app/admin/brand"
-	http_business "github.com/fritz-immanuel/eral-promo-library-go/src/app/admin/business"
-	http_businessconfig "github.com/fritz-immanuel/eral-promo-library-go/src/app/admin/businessconfig"
-	http_company "github.com/fritz-immanuel/eral-promo-library-go/src/app/admin/company"
-	http_employee "github.com/fritz-immanuel/eral-promo-library-go/src/app/admin/employee"
-	http_employeerole "github.com/fritz-immanuel/eral-promo-library-go/src/app/admin/employeerole"
-	http_permission "github.com/fritz-immanuel/eral-promo-library-go/src/app/admin/permission"
-	http_user "github.com/fritz-immanuel/eral-promo-library-go/src/app/admin/user"
+	http_brand "github.com/bowwsudrajat/promo-library-go/src/app/admin/brand"
+	http_business "github.com/bowwsudrajat/promo-library-go/src/app/admin/business"
+	http_businessconfig "github.com/bowwsudrajat/promo-library-go/src/app/admin/businessconfig"
+	http_company "github.com/bowwsudrajat/promo-library-go/src/app/admin/company"
+	http_employee "github.com/bowwsudrajat/promo-library-go/src/app/admin/employee"
+	http_employeerole "github.com/bowwsudrajat/promo-library-go/src/app/admin/employeerole"
+	http_permission "github.com/bowwsudrajat/promo-library-go/src/app/admin/permission"
+	http_user "github.com/bowwsudrajat/promo-library-go/src/app/admin/user"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/data"
+	"github.com/bowwsudrajat/promo-library-go/library/data"
 	"github.com/gin-gonic/gin"
 	"github.com/jmoiron/sqlx"
 )

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/url"
 	"reflect"
-	//"github.com/fritz-immanuel/eral-promo-library-go/library/appcontext"
+	//"github.com/bowwsudrajat/promo-library-go/library/appcontext"
 )
 
 // ParseQueryParams .

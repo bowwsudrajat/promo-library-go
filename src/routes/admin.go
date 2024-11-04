@@ -3,8 +3,8 @@ package routes
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/data"
-	"github.com/fritz-immanuel/eral-promo-library-go/src/app/admin"
+	"github.com/bowwsudrajat/promo-library-go/library/data"
+	"github.com/bowwsudrajat/promo-library-go/src/app/admin"
 	"github.com/jmoiron/sqlx"
 )
 

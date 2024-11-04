@@ -1,14 +1,14 @@
 package web
 
 import (
-	http_brand "github.com/fritz-immanuel/eral-promo-library-go/src/app/web/brand"
-	http_business "github.com/fritz-immanuel/eral-promo-library-go/src/app/web/business"
-	http_businessconfig "github.com/fritz-immanuel/eral-promo-library-go/src/app/web/businessconfig"
-	http_company "github.com/fritz-immanuel/eral-promo-library-go/src/app/web/company"
-	http_employee "github.com/fritz-immanuel/eral-promo-library-go/src/app/web/employee"
-	http_promo "github.com/fritz-immanuel/eral-promo-library-go/src/app/web/promo"
+	http_brand "github.com/bowwsudrajat/promo-library-go/src/app/web/brand"
+	http_business "github.com/bowwsudrajat/promo-library-go/src/app/web/business"
+	http_businessconfig "github.com/bowwsudrajat/promo-library-go/src/app/web/businessconfig"
+	http_company "github.com/bowwsudrajat/promo-library-go/src/app/web/company"
+	http_employee "github.com/bowwsudrajat/promo-library-go/src/app/web/employee"
+	http_promo "github.com/bowwsudrajat/promo-library-go/src/app/web/promo"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/data"
+	"github.com/bowwsudrajat/promo-library-go/library/data"
 	"github.com/gin-gonic/gin"
 	"github.com/jmoiron/sqlx"
 )

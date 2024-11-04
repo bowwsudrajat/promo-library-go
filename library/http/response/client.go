@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/notif"
+	"github.com/bowwsudrajat/promo-library-go/library/notif"
 	"github.com/pkg/errors"
 )
 

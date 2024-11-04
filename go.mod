@@ -1,4 +1,4 @@
-module github.com/fritz-immanuel/eral-promo-library-go
+module github.com/bowwsudrajat/promo-library-go
 
 go 1.21.3
 

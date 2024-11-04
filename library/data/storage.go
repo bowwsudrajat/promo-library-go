@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/appcontext"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/library"
+	"github.com/bowwsudrajat/promo-library-go/library/appcontext"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
 	"github.com/gin-gonic/gin"
 	"github.com/jmoiron/sqlx"
 )

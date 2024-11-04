@@ -3,7 +3,7 @@ package data
 import (
 	"fmt"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
 	"github.com/gin-gonic/gin"
 	"github.com/jmoiron/sqlx"
 )

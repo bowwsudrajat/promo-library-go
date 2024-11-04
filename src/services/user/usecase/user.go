@@ -8,14 +8,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/data"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/helpers"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
-	"github.com/fritz-immanuel/eral-promo-library-go/src/services/user"
+	"github.com/bowwsudrajat/promo-library-go/library"
+	"github.com/bowwsudrajat/promo-library-go/library/data"
+	"github.com/bowwsudrajat/promo-library-go/library/helpers"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/src/services/user"
 	"github.com/google/uuid"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/models"
+	"github.com/bowwsudrajat/promo-library-go/models"
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/viper"
 

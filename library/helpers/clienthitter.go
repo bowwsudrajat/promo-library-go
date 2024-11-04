@@ -3,8 +3,8 @@ package helpers
 import (
 	"log"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/configs"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/client"
+	"github.com/bowwsudrajat/promo-library-go/configs"
+	"github.com/bowwsudrajat/promo-library-go/library/client"
 )
 
 func HitExternalClient() *client.HTTPClient {

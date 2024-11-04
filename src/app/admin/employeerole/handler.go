@@ -7,19 +7,19 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/middleware"
-	"github.com/fritz-immanuel/eral-promo-library-go/models"
+	"github.com/bowwsudrajat/promo-library-go/middleware"
+	"github.com/bowwsudrajat/promo-library-go/models"
 	"github.com/gin-gonic/gin"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/data"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/helpers"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/http/response"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/library/data"
+	"github.com/bowwsudrajat/promo-library-go/library/helpers"
+	"github.com/bowwsudrajat/promo-library-go/library/http/response"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/src/services/employeerole"
+	"github.com/bowwsudrajat/promo-library-go/src/services/employeerole"
 
-	employeeroleRepository "github.com/fritz-immanuel/eral-promo-library-go/src/services/employeerole/repository"
-	employeeroleUsecase "github.com/fritz-immanuel/eral-promo-library-go/src/services/employeerole/usecase"
+	employeeroleRepository "github.com/bowwsudrajat/promo-library-go/src/services/employeerole/repository"
+	employeeroleUsecase "github.com/bowwsudrajat/promo-library-go/src/services/employeerole/usecase"
 )
 
 var ()

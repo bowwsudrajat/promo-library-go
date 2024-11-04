@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/appcontext"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/data"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/helpers"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
-	"github.com/fritz-immanuel/eral-promo-library-go/models"
+	"github.com/bowwsudrajat/promo-library-go/library/appcontext"
+	"github.com/bowwsudrajat/promo-library-go/library/data"
+	"github.com/bowwsudrajat/promo-library-go/library/helpers"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/models"
 	"github.com/gin-gonic/gin"
 )
 

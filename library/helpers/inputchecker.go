@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
 	"github.com/go-playground/validator/v10"
 	"github.com/google/uuid"
 )

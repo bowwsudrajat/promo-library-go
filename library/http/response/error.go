@@ -8,9 +8,9 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/notif"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/telegram"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/library/notif"
+	"github.com/bowwsudrajat/promo-library-go/library/telegram"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
 	"github.com/gin-gonic/gin"
 	validator "gopkg.in/go-playground/validator.v9"
 

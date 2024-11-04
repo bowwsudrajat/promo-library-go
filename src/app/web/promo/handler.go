@@ -8,21 +8,21 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/appcontext"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/firebase"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/helpers"
-	"github.com/fritz-immanuel/eral-promo-library-go/middleware"
-	"github.com/fritz-immanuel/eral-promo-library-go/models"
-	"github.com/fritz-immanuel/eral-promo-library-go/src/services/promo"
+	"github.com/bowwsudrajat/promo-library-go/library"
+	"github.com/bowwsudrajat/promo-library-go/library/appcontext"
+	"github.com/bowwsudrajat/promo-library-go/library/firebase"
+	"github.com/bowwsudrajat/promo-library-go/library/helpers"
+	"github.com/bowwsudrajat/promo-library-go/middleware"
+	"github.com/bowwsudrajat/promo-library-go/models"
+	"github.com/bowwsudrajat/promo-library-go/src/services/promo"
 	"github.com/gin-gonic/gin"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/data"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/http/response"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/library/data"
+	"github.com/bowwsudrajat/promo-library-go/library/http/response"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
 
-	promoRepository "github.com/fritz-immanuel/eral-promo-library-go/src/services/promo/repository"
-	promoUsecase "github.com/fritz-immanuel/eral-promo-library-go/src/services/promo/usecase"
+	promoRepository "github.com/bowwsudrajat/promo-library-go/src/services/promo/repository"
+	promoUsecase "github.com/bowwsudrajat/promo-library-go/src/services/promo/usecase"
 )
 
 type PromoHandler struct {

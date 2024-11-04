@@ -9,20 +9,20 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library"
-	"github.com/fritz-immanuel/eral-promo-library-go/middleware"
-	"github.com/fritz-immanuel/eral-promo-library-go/models"
+	"github.com/bowwsudrajat/promo-library-go/library"
+	"github.com/bowwsudrajat/promo-library-go/middleware"
+	"github.com/bowwsudrajat/promo-library-go/models"
 	"github.com/gin-gonic/gin"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/data"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/helpers"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/http/response"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/library/data"
+	"github.com/bowwsudrajat/promo-library-go/library/helpers"
+	"github.com/bowwsudrajat/promo-library-go/library/http/response"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/src/services/user"
+	"github.com/bowwsudrajat/promo-library-go/src/services/user"
 
-	userRepository "github.com/fritz-immanuel/eral-promo-library-go/src/services/user/repository"
-	userUsecase "github.com/fritz-immanuel/eral-promo-library-go/src/services/user/usecase"
+	userRepository "github.com/bowwsudrajat/promo-library-go/src/services/user/repository"
+	userUsecase "github.com/bowwsudrajat/promo-library-go/src/services/user/usecase"
 )
 
 var ()

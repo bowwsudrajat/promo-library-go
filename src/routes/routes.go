@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/configs"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/data"
+	"github.com/bowwsudrajat/promo-library-go/configs"
+	"github.com/bowwsudrajat/promo-library-go/library/data"
 
 	"github.com/gin-contrib/cors"
 	"github.com/jmoiron/sqlx"

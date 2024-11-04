@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/configs"
+	"github.com/bowwsudrajat/promo-library-go/configs"
 )
 
 func Send(message string) error {

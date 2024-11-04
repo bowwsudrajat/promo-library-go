@@ -14,9 +14,9 @@ import (
 
 	"cloud.google.com/go/storage"
 	firebase "firebase.google.com/go/v4"
-	"github.com/fritz-immanuel/eral-promo-library-go/configs"
-	"github.com/fritz-immanuel/eral-promo-library-go/library"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/configs"
+	"github.com/bowwsudrajat/promo-library-go/library"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
 	"github.com/gin-gonic/gin"
 	"google.golang.org/api/option"
 )

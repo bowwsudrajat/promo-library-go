@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/fritz-immanuel/eral-promo-library-go/configs"
-	"github.com/fritz-immanuel/eral-promo-library-go/library"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/appcontext"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
-	"github.com/fritz-immanuel/eral-promo-library-go/models"
+	"github.com/bowwsudrajat/promo-library-go/configs"
+	"github.com/bowwsudrajat/promo-library-go/library"
+	"github.com/bowwsudrajat/promo-library-go/library/appcontext"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/models"
 	"github.com/gin-gonic/gin"
 	"github.com/jmoiron/sqlx"
 )

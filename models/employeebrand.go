@@ -1,6 +1,6 @@
 package models
 
-import "github.com/fritz-immanuel/eral-promo-library-go/library/types"
+import "github.com/bowwsudrajat/promo-library-go/library/types"
 
 type EmployeeBrandBulk struct {
 	ID         string `json:"ID" db:"id"`

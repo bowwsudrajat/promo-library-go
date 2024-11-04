@@ -5,18 +5,18 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/helpers"
-	"github.com/fritz-immanuel/eral-promo-library-go/middleware"
-	"github.com/fritz-immanuel/eral-promo-library-go/models"
-	"github.com/fritz-immanuel/eral-promo-library-go/src/services/permission"
+	"github.com/bowwsudrajat/promo-library-go/library/helpers"
+	"github.com/bowwsudrajat/promo-library-go/middleware"
+	"github.com/bowwsudrajat/promo-library-go/models"
+	"github.com/bowwsudrajat/promo-library-go/src/services/permission"
 	"github.com/gin-gonic/gin"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/data"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/http/response"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/library/data"
+	"github.com/bowwsudrajat/promo-library-go/library/http/response"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
 
-	permissionRepository "github.com/fritz-immanuel/eral-promo-library-go/src/services/permission/repository"
-	permissionUsecase "github.com/fritz-immanuel/eral-promo-library-go/src/services/permission/usecase"
+	permissionRepository "github.com/bowwsudrajat/promo-library-go/src/services/permission/repository"
+	permissionUsecase "github.com/bowwsudrajat/promo-library-go/src/services/permission/usecase"
 )
 
 var ()

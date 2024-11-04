@@ -44,7 +44,7 @@ func init() {
 		Filename:    "202410251405_insert_users_init_data.up.sql",
 		FileModTime: time.Unix(1730120248, 0),
 
-		Content: string("INSERT INTO\r\n  users (id, name, email, username, password, status_id)\r\nVALUES\r\n  (UUID(), 'Fritz', 'fritz@erajaya.com', 'fritz', 'e10adc3949ba59abbe56e057f20f883e', 1);"),
+		Content: string("INSERT INTO\r\n  users (id, name, email, username, password, status_id)\r\nVALUES\r\n  (UUID(), 'Boww', 'boww@erajaya.com', 'boww', 'e10adc3949ba59abbe56e057f20f883e', 1);"),
 	}
 	file8 := &embedded.EmbeddedFile{
 		Filename:    "202410251406_create_table_business.up.sql",

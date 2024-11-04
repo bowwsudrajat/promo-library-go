@@ -5,17 +5,17 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/helpers"
-	"github.com/fritz-immanuel/eral-promo-library-go/models"
-	"github.com/fritz-immanuel/eral-promo-library-go/src/services/businessconfig"
+	"github.com/bowwsudrajat/promo-library-go/library/helpers"
+	"github.com/bowwsudrajat/promo-library-go/models"
+	"github.com/bowwsudrajat/promo-library-go/src/services/businessconfig"
 	"github.com/gin-gonic/gin"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/data"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/http/response"
-	"github.com/fritz-immanuel/eral-promo-library-go/library/types"
+	"github.com/bowwsudrajat/promo-library-go/library/data"
+	"github.com/bowwsudrajat/promo-library-go/library/http/response"
+	"github.com/bowwsudrajat/promo-library-go/library/types"
 
-	businessconfigRepository "github.com/fritz-immanuel/eral-promo-library-go/src/services/businessconfig/repository"
-	businessconfigUsecase "github.com/fritz-immanuel/eral-promo-library-go/src/services/businessconfig/usecase"
+	businessconfigRepository "github.com/bowwsudrajat/promo-library-go/src/services/businessconfig/repository"
+	businessconfigUsecase "github.com/bowwsudrajat/promo-library-go/src/services/businessconfig/usecase"
 )
 
 type BusinessConfigHandler struct {

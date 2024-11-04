@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/fritz-immanuel/eral-promo-library-go/library/notif"
+	"github.com/bowwsudrajat/promo-library-go/library/notif"
 )
 
 // Notification represents message

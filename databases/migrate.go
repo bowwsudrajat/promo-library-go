@@ -5,7 +5,7 @@ import (
 	"log"
 
 	rice "github.com/GeertJohan/go.rice"
-	"github.com/fritz-immanuel/eral-promo-library-go/configs"
+	"github.com/bowwsudrajat/promo-library-go/configs"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/golang-migrate/migrate"
 	"github.com/golang-migrate/migrate/database/mysql"
